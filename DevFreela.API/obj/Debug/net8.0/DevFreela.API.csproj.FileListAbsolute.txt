@@ -30,3 +30,4 @@ D:\projetos\FormacaoAspNetCore3\DevFreela\DevFreela.API\obj\Debug\net8.0\refint\
 D:\projetos\FormacaoAspNetCore3\DevFreela\DevFreela.API\obj\Debug\net8.0\DevFreela.API.pdb
 D:\projetos\FormacaoAspNetCore3\DevFreela\DevFreela.API\obj\Debug\net8.0\DevFreela.API.genruntimeconfig.cache
 D:\projetos\FormacaoAspNetCore3\DevFreela\DevFreela.API\obj\Debug\net8.0\ref\DevFreela.API.dll
+D:\projetos\FormacaoAspNetCore3\DevFreela\DevFreela.API\obj\Debug\net8.0\DevFreela.API.sourcelink.json
