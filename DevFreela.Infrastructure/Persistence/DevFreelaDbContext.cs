@@ -1,35 +1,28 @@
 ﻿using DevFreela.Core.Entities;
+using Microsoft.EntityFrameworkCore;
+using System.Reflection;
 
 namespace DevFreela.Infrastructure.Persistence
 {
-    public class DevFreelaDbContext
+    public class DevFreelaDbContext : DbContext
     {
         public DevFreelaDbContext()
         {
-            Projects = new List<Project>
-            {
-                new Project("Meu projeto ASPNET Core 1", "Minha descrição de projeto 1", 1, 1, 10000),
-                new Project("Meu projeto ASPNET Core 2", "Minha descrição de projeto 2", 1, 1, 20000),
-                new Project("Meu projeto ASPNET Core 3", "Minha descrição de projeto 3", 1, 1, 30000),
-            };
-
-            Users = new List<User>
-            {
-                new User("Fabrício Suhet", "fabricio@dev.com", new DateTime(2000, 03, 15)),
-                new User("Thais Costa", "thais@dev.com", new DateTime(2002, 02, 06)),
-                new User("Fabricio Silva", "silva@dev.com", new DateTime(2000, 03, 15)),
-            };
-
-            Skills = new List<Skill>
-            {
-                new Skill(".NET CORE"),
-                new Skill("C#"),
-                new Skill("SQL"),
-            };
+            
         }
-        public List<Project>? Projects { get; set; }
-        public List<User>? Users { get; set; }
-        public List<Skill>? Skills { get; set; }
-        public List<ProjectComment> ProjectComments { get; set; }
+        public DevFreelaDbContext(DbContextOptions<DevFreelaDbContext> options) : base(options)
+        {
+            
+        }
+        public DbSet<Project>? Projects { get; set; }
+        public DbSet<User>? Users { get; set; }
+        public DbSet<Skill>? Skills { get; set; }
+        public DbSet<UserSkill> UserSkills { get; set; }
+        public DbSet<ProjectComment> ProjectComments { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        }
     }
 }
