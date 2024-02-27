@@ -144,3 +144,6 @@ D:\projetos\FormacaoAspNetCore3\DevFreela\DevFreela.API\bin\Debug\net8.0\zh-Hant
 D:\projetos\FormacaoAspNetCore3\DevFreela\DevFreela.API\bin\Debug\net8.0\Dapper.dll
 D:\projetos\FormacaoAspNetCore3\DevFreela\DevFreela.API\bin\Debug\net8.0\MediatR.dll
 D:\projetos\FormacaoAspNetCore3\DevFreela\DevFreela.API\bin\Debug\net8.0\MediatR.Contracts.dll
+D:\projetos\FormacaoAspNetCore3\DevFreela\DevFreela.API\bin\Debug\net8.0\FluentValidation.dll
+D:\projetos\FormacaoAspNetCore3\DevFreela\DevFreela.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+D:\projetos\FormacaoAspNetCore3\DevFreela\DevFreela.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

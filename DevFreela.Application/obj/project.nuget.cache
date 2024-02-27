@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "YLVCiJ7CjQs7qmDfedUrdM/zzyimnbGHkNVFLgO5/BDmvE7JdcR95Zf/LVqSDynhanm2VJjN96dD62PqOmFNGg==",
+  "dgSpecHash": "p1hDFk5wcbK7adQHcrLaT2bfeWSppKzPvxdPbXNO5ulZyqJdGG4VMiTS2plP1Aqle7dfoh3jNWNx8Pj3jqJXIA==",
   "success": true,
   "projectFilePath": "D:\\projetos\\FormacaoAspNetCore3\\DevFreela\\DevFreela.Application\\DevFreela.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fsuhe\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\fsuhe\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\fsuhe\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
+    "C:\\Users\\fsuhe\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\fsuhe\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\fsuhe\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\fsuhe\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

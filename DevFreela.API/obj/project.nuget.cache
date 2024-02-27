@@ -1,12 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "fjhUv8gzua3OiX1N+LyMjuT+Fji0sP3Ls+Ns18vhilnH5x/ECfAs3C2f+7ZV3BOCObaGNgSmkXN4vwgxRByHkQ==",
+  "dgSpecHash": "xaYqt7G9pNjtF7HxMDwK29H2a0ALyJFpS/y3I/Ykk1ko4j/7lROMC6dH7dTi9BrvuA1I/tifSSsFdIPGudd2Jg==",
   "success": true,
   "projectFilePath": "D:\\projetos\\FormacaoAspNetCore3\\DevFreela\\DevFreela.API\\DevFreela.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fsuhe\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\fsuhe\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
     "C:\\Users\\fsuhe\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
+    "C:\\Users\\fsuhe\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
+    "C:\\Users\\fsuhe\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.3.0\\fluentvalidation.aspnetcore.11.3.0.nupkg.sha512",
+    "C:\\Users\\fsuhe\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
     "C:\\Users\\fsuhe\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\fsuhe\\.nuget\\packages\\mediatr\\12.2.0\\mediatr.12.2.0.nupkg.sha512",
     "C:\\Users\\fsuhe\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
