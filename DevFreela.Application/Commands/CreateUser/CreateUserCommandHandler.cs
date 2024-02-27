@@ -1,6 +1,8 @@
 using DevFreela.Core.Entities;
+using DevFreela.Core.Repositories;
 using DevFreela.Infrastructure.Persistence;
 using MediatR;
+using Microsoft.Identity.Client;
 
 namespace DevFreela.Application.Commands.CreateUser;
 
