@@ -8,14 +8,19 @@ namespace DevFreela.Infrastructure.Persistence.Repositories;
 public class UserRepository : IUserRepository
 {
     private readonly DevFreelaDbContext _dbContext;
-    private readonly string _connectionString;
     public UserRepository(DevFreelaDbContext dbContext, IConfiguration configuration)
     {
         _dbContext = dbContext;
-        _connectionString = configuration.GetConnectionString("DevFreelaCs");
+
     }
     public async Task<User> GetByIdAsync(int id)
     {
         return await _dbContext.Users.SingleOrDefaultAsync(u => u.Id == id);
+    }
+
+    public async Task<User> GetUserByEmailAndPasswordAsync(string email, string passwordHash)
+    {
+        return await _dbContext.Users
+            .SingleOrDefaultAsync(u => u.Email == email && u.Password == passwordHash);
     }
 }
