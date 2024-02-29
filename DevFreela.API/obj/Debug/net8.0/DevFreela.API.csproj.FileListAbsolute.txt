@@ -147,3 +147,4 @@ D:\projetos\FormacaoAspNetCore3\DevFreela\DevFreela.API\bin\Debug\net8.0\MediatR
 D:\projetos\FormacaoAspNetCore3\DevFreela\DevFreela.API\bin\Debug\net8.0\FluentValidation.dll
 D:\projetos\FormacaoAspNetCore3\DevFreela\DevFreela.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
 D:\projetos\FormacaoAspNetCore3\DevFreela\DevFreela.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+D:\projetos\FormacaoAspNetCore3\DevFreela\DevFreela.API\bin\Debug\net8.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

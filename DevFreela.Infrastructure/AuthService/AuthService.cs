@@ -1,5 +1,4 @@
 using System.IdentityModel.Tokens.Jwt;
-using System.Runtime.Intrinsics.Arm;
 using System.Security.Claims;
 using System.Security.Cryptography;
 using System.Text;
@@ -15,6 +14,7 @@ public class AuthService : IAuthService
     public AuthService(IConfiguration configuration)
     {
         _configuration = configuration;
+
     }
     public string GenerateJwtToken(string email, string role)
     {
